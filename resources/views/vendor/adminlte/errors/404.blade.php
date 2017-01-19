@@ -12,8 +12,10 @@
             <h3><i class="fa fa-warning text-yellow"></i> Oops! {{ trans('adminlte_lang::message.pagenotfound') }}.</h3>
             <p>
                 {{ trans('adminlte_lang::message.notfindpage') }}
-                {{ trans('adminlte_lang::message.mainwhile') }} <a href='{{ url('/home') }}'>{{ trans('adminlte_lang::message.returndashboard') }}</a> {{ trans('adminlte_lang::message.usingsearch') }}
+                {{ trans('adminlte_lang::message.mainwhile') }} <a href='{{ url('/home') }}'>{{ trans('adminlte_lang::message.returndashboard') }}</a> 
             </p>
+            <?php
+            /*
             <form class='search-form'>
                 <div class='input-group'>
                     <input type="text" name="search" class='form-control' placeholder="{{ trans('adminlte_lang::message.search') }}"/>
@@ -22,6 +24,8 @@
                     </div>
                 </div><!-- /.input-group -->
             </form>
+            */
+            ?>
         </div><!-- /.error-content -->
     </div><!-- /.error-page -->
 @endsection

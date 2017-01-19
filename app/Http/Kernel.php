@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http;
-
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
